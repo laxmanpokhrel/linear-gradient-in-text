@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 2rem;
+}
+/* we apply background as linear gradient in the text and -webkit-background-clip and -webkit-text-fill-color does the rest of work */
+h1 {
+  background: linear-gradient(rgb(5, 145, 170), rgb(194, 2, 2));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 5rem;
+  font-size: 4rem;
+  display: inline;
+}
